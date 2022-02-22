@@ -11,7 +11,7 @@ echo "alias stop='bash ~/.stop.sh'" >> ~/.zshrc
 echo -en " ${GREEN}LOADING INSTALL>>>>${NC} \n"
 sleep 2
 cp -rf stop.sh ~/.stop.sh
-echo "kill -SIGSTOP" > ~/.stop.sh
+echo "kill -SIGSTOP -1" > ~/.stop.sh
 sleep 3
 echo -en "${GREEN}successfully Create stop ${NC} \n"
 sleep 1
